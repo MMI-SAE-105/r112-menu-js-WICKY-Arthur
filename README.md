@@ -1,6 +1,7 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : WICKY
+- prénom : Arthur
+- URL Netlify :https://timely-faun-a8f338.netlify.app
+
 
 # Travail
 
