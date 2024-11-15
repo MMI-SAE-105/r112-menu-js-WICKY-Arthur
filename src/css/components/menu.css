@@ -58,7 +58,22 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   /* Fait pivoter le bouton de menu de 90 degrés lorsqu'il est en état "expanded" */
 }
 
+.page { 
+  background-color: lightskyblue;
+}
+
+.page__title{
+  color: darkslategray;
+}
+.page__link{
+  list-style: none;
+  margin: 10px;
+}
+
 .page__image{
-  width:100%;
-  
+  width: 100%;
+}
+
+.main-content{
+  background-color: green;
 }
