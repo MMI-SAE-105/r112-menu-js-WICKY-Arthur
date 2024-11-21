@@ -57,6 +57,24 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   transform: rotate(90deg);
   /* Fait pivoter le bouton de menu de 90 degrés lorsqu'il est en état "expanded" */
 }
+.menu__item{
+  position: relative;
+  left : 25px;
+  list-style: none;
+  padding: 50px;
+  /* Ajoute un espace de 10px autour du contenu du menu */
+  text-align: center;
+  /* Centre le texte dans le menu */
+  border-bottom: 1px solid lightgray;
+  /* Ajoute une bordure de 1px en bas du menu */
+}
+.menu__link{
+  text-decoration: none;
+  /* Supprime la soulignement des liens */
+  color: black;
+  /* Définit la couleur du texte en noir */
+  font-size: large;
+}
 
 .page { 
   background-color: lightskyblue;
@@ -75,5 +93,23 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 }
 
 .main-content{
-  background-color: green;
+  color : darkolivegreen;
+}
+
+/* Page liste chats */
+.page{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* Définit la police de caractères du texte */
+}
+.page__list{
+  justify-content: center;
+  list-style: none;
+}
+.page__link{
+  text-decoration: none;
+    /* Supprime la soulignement des liens */
+    color: black;
+    /* Définit la couleur du texte en noir */
+    font-size: larger;
+    /* Définit la taille du texte en large */
 }
